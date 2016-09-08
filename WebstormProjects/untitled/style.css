@@ -1,0 +1,85 @@
+
+body {
+    background-color: darkgrey;
+}
+
+nav ul li a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-right:50px solid black;
+
+}
+
+nav ul {
+    background-color: black;
+    text-align: center;
+
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: lawngreen;
+}
+
+.active {
+    background-color: darkolivegreen;
+}
+
+aside ul li a:hover{
+    color: black;
+}
+
+article {
+    font-family: cursive;
+    float: left;
+
+}
+
+H2{
+    font-family: "Al Bayan";
+    color: brown;
+}
+
+.blogHeadline{
+    color: Red;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+aside{
+    float: right;
+    height: 50px;
+}
+
+aside ul li a{
+        color: gold;
+        font-size: 20px;
+
+ }
+#blogBody {
+    background-image: url(bg.jpg);
+    color: white;
+}
+
+.image1{
+
+}
+.image2{
+       float: right;
+}
+
+
+.image3{
+
+}

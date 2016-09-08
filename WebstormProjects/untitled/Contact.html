@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="Index.html">Index</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a class="active" href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div id="wrapper">
+
+
+<form action="demo_form_method.asp" method="post" target="_blank">
+
+    <fieldset style="width:270px">
+        <legend>Ask your question:</legend>
+        <label>Type: </label>
+        <select name="select">
+            <option value="Question 1">Question 1</option>
+            <option value="Question 2">Question 2</option>
+            <option value="Question 3">Question 3</option>
+        </select>
+        <br>
+        Name: <textarea rows="1"></textarea> <br>
+        Question: <textarea rows="5"></textarea><br>
+
+    </fieldset>
+
+    <fieldset style="width:270px">
+        <legend>How should I contact you?:</legend>
+        <input type="checkbox" name="vehicle" value="Bike">Telephone<br>
+        <input type="checkbox" name="vehicle" value="Bike">E-Mail<br>
+    </fieldset>
+    <input type="submit" value="Send">
+
+
+</form>
+
+</div>
+</body>
+</html>
